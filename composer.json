@@ -1,0 +1,20 @@
+{
+    "name": "kstupak/baseline",
+    "description": "A bunch of components/contracts/abstract stuff that I have to do every project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "kstupak\\Baseline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kostiantyn Stupak",
+            "email": "konstantin.stupak@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "version": "0.0.1"
+}
