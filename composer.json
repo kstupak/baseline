@@ -1,11 +1,11 @@
 {
-    "name": "kstupak/baseline",
+    "name": "GimmeMore/baseline",
     "description": "A bunch of components/contracts/abstract stuff that I have to do every project",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "kstupak\\Baseline\\": "src/"
+            "GimmeMore\\Baseline\\": "src/"
         }
     },
     "authors": [
