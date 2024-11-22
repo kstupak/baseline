@@ -1,11 +1,11 @@
 {
-    "name": "GimmeMore/baseline",
+    "name": "kstupak/baseline",
     "description": "A bunch of components/contracts/abstract stuff that I have to do every project",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "GimmeMore\\Baseline\\": "src/"
+            "kstupak\\Baseline\\": "src/"
         }
     },
     "authors": [
@@ -15,6 +15,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
-    "version": "0.0.1"
+    "require": {
+        "symfony/uid": "^7.1",
+        "doctrine/orm": "^3.3",
+        "symfony/orm-pack": "^2.4"
+    },
+    "version": "0.0.2"
 }

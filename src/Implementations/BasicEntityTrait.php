@@ -10,10 +10,10 @@
 
 declare(strict_types=1);
 
-namespace GimmeMore\Baseline\Implementations;
+namespace kstupak\Baseline\Implementations;
 
 use Doctrine\ORM\Mapping as ORM;
-use GimmeMore\Baseline\Contracts\Entity;
+use kstupak\Baseline\Contracts\Entity;
 use Symfony\Component\Uid\Uuid;
 
 trait BasicEntityTrait

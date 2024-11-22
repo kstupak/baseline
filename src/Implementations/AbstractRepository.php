@@ -10,12 +10,12 @@
 
 declare(strict_types=1);
 
-namespace GimmeMore\Baseline\Implementations;
+namespace kstupak\Baseline\Implementations;
 
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use GimmeMore\Baseline\Contracts\BasicRepository;
+use kstupak\Baseline\Contracts\BasicRepository;
 
 abstract class AbstractRepository extends ServiceEntityRepository implements BasicRepository
 {

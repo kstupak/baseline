@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace GimmeMore\Baseline\Contracts;
+namespace kstupak\Baseline\Contracts;
 
 use Doctrine\Common\Collections\Collection;
 
